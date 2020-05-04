@@ -1,10 +1,20 @@
 import java.awt.*;
 
+/**
+ * This class represent a rectangle
+ */
 public class Rectangle extends Figure{
 
     private int mWidth;
     private int mHeight;
 
+    /**
+     * The constructor
+     * @param p      point
+     * @param c      color of the rectangle
+     * @param width  width of the rectangle
+     * @param height height of the rectangle.
+     */
     public Rectangle(Point p, Color c, int width, int height) {
         super(p, c);
         mHeight = height;

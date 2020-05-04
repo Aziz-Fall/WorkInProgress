@@ -3,8 +3,17 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
+/**
+ * This class serialize a data and put them in a file.
+ */
 public class SerializeDrawing{
 
+    /**
+     * This static method serialize a figure passed in argument
+     * and put them in the name's file passed in argument
+     * @param f        the figure
+     * @param nameFile name file
+     */
     public static void setData(Figure f, String nameFile){
         ObjectOutputStream oos = null;
         try {

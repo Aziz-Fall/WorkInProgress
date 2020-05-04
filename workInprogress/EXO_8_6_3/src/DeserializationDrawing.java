@@ -1,8 +1,15 @@
 import java.awt.*;
 import java.io.*;
 
+/**
+ * This class Deserialize a data contained in a file.
+ */
 public class DeserializationDrawing {
-
+    /**
+     * This static method deserialize a figure passed that
+     * contained in the file passed in argument
+     * @param nameFile name file
+     */
     public static Figure getData(String nameFile){
         ObjectInputStream ois = null;
         Figure f              = null;
